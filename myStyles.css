@@ -1,0 +1,79 @@
+*{
+  color: navy;
+  background-color: chartreuse;
+}
+
+h1 {
+  color: purple;
+  background-color: gold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: red;
+  background-color: purple;
+}
+/*there are comments!*/
+h1 + p{
+  color: white;
+  background-color: green;
+}
+
+p id="MyPara"{
+  border: cyan dashed 3px;
+  margin-left: 10%;
+  padding:12px 4px 20px;
+  color: lightgray;
+  background-color: darkgreen;
+}
+
+/* #MyPara{
+  position:relative;
+  top: 10px;
+  left: 10%;
+  right: 20%;
+} */
+
+/* #MyPara:hover{
+  display: inline;
+} */
+
+p::first-letter{
+  font-size: 24pt;
+}
+
+ul#navMenu > li{
+  background-color: darkblue;
+  color: tan;
+  text-decoration: none;
+
+}
+a: active{
+
+}
+
+/* ul li hover{
+color: blue;
+background-color: orange;
+} */
+
+li{
+  color: magenta;
+  text-decoration: underline;
+  background-color: limegreen;
+}
+
+ol li: last-child(){
+  color: navy;
+  text-decoration: italic;
+}
+
+ol listy{
+  color: fuchsia;
+  background-color: orange;
+  text-decoration: none;
+}
+
+#lastProduct{
+  color: blue;
+  background-color: gray;
+}
